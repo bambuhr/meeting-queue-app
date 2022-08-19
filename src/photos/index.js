@@ -49,6 +49,7 @@ import Abhishek from "./abhishek.png";
 import Sheldon from "./Sheldon.png";
 import Narmeet from "./Narmeet.png";
 import Szehan from "./Szehan.png";
+import John from "./John.jpg";
 
 import { man, woman } from "./avatar";
 
@@ -263,9 +264,8 @@ const employees = [
   },
   {
     content: "John",
-    image: man(),
+    image: John,
     team: TEAM.SUPPORT,
-    isWinner: true,
   },
   {
     content: "Sherry",
@@ -382,6 +382,7 @@ const employees = [
     content: "Sheldon",
     image: Sheldon,
     team: TEAM.DEVELOPMENT,
+    isWinner: true,
   },
   {
     content: "Sze Han",
