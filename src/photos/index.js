@@ -14,7 +14,7 @@ import photo_33 from "./33.png";
 import photo_35 from "./35.png";
 import photo_36 from "./36.png";
 import photo_38 from "./38.png";
-// import photo_44 from "./44.png";
+import photo_44 from "./44.png";
 import photo_45 from "./45.png";
 import photo_47 from "./47.png";
 import photo_50 from "./50.png";
@@ -112,11 +112,11 @@ const employees = [
     image: photo_36,
     team: TEAM.DEVELOPMENT,
   },
-  // {
-  //   content: "Dani",
-  //   image: photo_44,
-  //   team: TEAM.MARKETING,
-  // },
+  {
+    content: "Dani",
+    image: photo_44,
+    team: TEAM.MARKETING,
+  },
   {
     content: "Manisha",
     image: Manisha,
@@ -291,7 +291,6 @@ const employees = [
     content: "Mizu",
     image: Mizu,
     team: TEAM.MARKETING,
-    // isWinner: true,
   },
   {
     content: "Ostin",
