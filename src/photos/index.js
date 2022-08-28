@@ -24,7 +24,6 @@ import photo_67 from "./67.png";
 import Grace from "./Grace.jpg";
 import QiShan from "./QiShan.png";
 import Udaykant from "./Uday.png";
-import Duleendra from "./Duleendra.jpeg";
 import Fabian from "./Fabian.png";
 import Ian from "./Ian.png";
 import Miko from "./Miko.png";
