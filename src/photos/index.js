@@ -14,11 +14,9 @@ import photo_33 from "./33.png";
 import photo_35 from "./35.png";
 import photo_36 from "./36.png";
 import photo_38 from "./38.png";
-import photo_44 from "./44.png";
 import photo_45 from "./45.png";
 import photo_47 from "./47.png";
 import photo_50 from "./50.png";
-import photo_54 from "./54.png";
 import photo_58 from "./58.png";
 import Manisha from "./Manisha.png";
 import photo_67 from "./67.png";
@@ -113,11 +111,6 @@ const employees = [
     team: TEAM.DEVELOPMENT,
   },
   {
-    content: "Dani",
-    image: photo_44,
-    team: TEAM.MARKETING,
-  },
-  {
     content: "Manisha",
     image: Manisha,
     team: TEAM.TESTING,
@@ -125,11 +118,6 @@ const employees = [
   {
     content: "Dan",
     image: photo_17,
-    team: TEAM.DEVELOPMENT,
-  },
-  {
-    content: "Yusuf",
-    image: photo_54,
     team: TEAM.DEVELOPMENT,
   },
   {
@@ -169,6 +157,11 @@ const employees = [
   },
   {
     content: "Sneha",
+    image: woman(),
+    team: TEAM.TESTING,
+  },
+  {
+    content: "Prabha",
     image: woman(),
     team: TEAM.TESTING,
   },
@@ -218,11 +211,6 @@ const employees = [
     team: TEAM.TESTING,
   },
   {
-    content: "Geeta",
-    image: woman(),
-    team: TEAM.TESTING,
-  },
-  {
     content: "Qi Shan",
     image: QiShan,
     team: TEAM.DESIGN,
@@ -251,11 +239,6 @@ const employees = [
     content: "Sharaf",
     image: Sharaf,
     team: TEAM.PM,
-  },
-  {
-    content: "Duleendra",
-    image: Duleendra,
-    team: TEAM.DEVELOPMENT,
   },
   {
     content: "Fabian",
@@ -391,7 +374,7 @@ const employees = [
     content: "Sheldon",
     image: Sheldon,
     team: TEAM.DEVELOPMENT,
-    isWinner: true,
+    // isWinner: true,
   },
   {
     content: "Sze Han",
