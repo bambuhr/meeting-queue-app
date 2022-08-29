@@ -7,10 +7,13 @@
 ```git clone https://github.com/bambuhr/meeting-queue-app.git```.
 2. open the cloned directory with your favorite editor, e.g https://code.visualstudio.com/.  
 ```cd meeting-queue-app```
-3. make some changes
-4. go back to terminal and type:   
+3. type `yarn install && yarn` in the terminal to get the codebase ready for development
+4. make some changes
+5. when all changes are final, type in terminal.  
+`yarn build`
+6. go back to terminal and type:   
 `git add . && git commit -m "describe your changes here .... "`
-5. when you are ready to publish the changes, type:  
+7. to publish the changes type:  
 `git push`
 
 
