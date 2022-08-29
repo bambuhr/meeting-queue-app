@@ -13,7 +13,7 @@
 `yarn build`
 6. go back to terminal and type:   
 `git add . && git commit -m "describe your changes here .... "`
-7. to publish the changes type:  
+7. to publish the changes:
 `git push`
 
 
