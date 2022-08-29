@@ -7,9 +7,12 @@
 ```git clone https://github.com/bambuhr/meeting-queue-app.git```.
 2. open the cloned directory with your favorite editor, e.g https://code.visualstudio.com/.  
 ```cd meeting-queue-app```
-3. 
+3. make some changes
+4. go back to terminal and type:   
+`git add . && git commit -m "describe your changes here .... "`
+5. when you are ready to publish the changes, type:  
+`git push`
 
-#### Deployment Guide
 
 
 
