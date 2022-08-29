@@ -9,14 +9,12 @@
 ```cd meeting-queue-app```
 3. type `yarn install && yarn` in the terminal to get the codebase ready for development
 4. make some changes
-5. when all changes are final, type in terminal.  
-`yarn build`
-6. go back to terminal and type:   
+5. go back to terminal and type:   
 `git add . && git commit -m "describe your changes here .... "`
-7. to publish the changes:
+6. to publish the changes:
 `git push`
 
-
-
+### Deployment
+Deployment and build is handled by Netlify, ask Heintze for the Netfliy account if you really need access.
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
