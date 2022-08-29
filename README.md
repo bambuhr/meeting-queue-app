@@ -4,7 +4,10 @@
 
 #### Development Guide
 1. Open Terminal and paste the following
-`git clone https://github.com/bambuhr/meeting-queue-app.git`
+```git clone https://github.com/bambuhr/meeting-queue-app.git```
+2. open the cloned directory with your favorite editor, e.g https://code.visualstudio.com/
+```cd meeting-queue-app```
+3. 
 
 #### Deployment Guide
 
