@@ -2,7 +2,6 @@ import photo_4 from "./4.png";
 import photo_6 from "./6.png";
 import photo_9 from "./9.png";
 import photo_12 from "./12.png";
-import photo_13 from "./13.png";
 import photo_15 from "./15.png";
 import photo_17 from "./17.png";
 import photo_20 from "./20.png";
@@ -88,10 +87,14 @@ const employees = [
     image: photo_4,
     team: TEAM.SALES,
   },
-
   {
     content: "Shekhar",
     image: photo_47,
+    team: TEAM.TESTING,
+  },
+  {
+    content: "Hemanth",
+    image: man(),
     team: TEAM.TESTING,
   },
   {
@@ -148,11 +151,6 @@ const employees = [
     content: "Carina",
     image: photo_15,
     team: TEAM.SALES,
-  },
-  {
-    content: "Basanti",
-    image: photo_13,
-    team: TEAM.TESTING,
   },
   {
     content: "Sneha",
