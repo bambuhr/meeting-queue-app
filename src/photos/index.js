@@ -92,11 +92,11 @@ const employees = [
     image: photo_47,
     team: TEAM.TESTING,
   },
-  {
-    content: "Hemanth",
-    image: man(),
-    team: TEAM.TESTING,
-  },
+  // {
+  //   content: "Hemanth",
+  //   image: man(),
+  //   team: TEAM.TESTING,
+  // },
   {
     content: "Azman",
     image: photo_12,
