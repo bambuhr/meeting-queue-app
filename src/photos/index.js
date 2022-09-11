@@ -46,6 +46,7 @@ import Sheldon from "./Sheldon.jpg";
 import Narmeet from "./Narmeet.jpg";
 import Szehan from "./Szehan.jpg";
 import John from "./John.jpg";
+import Loke from './Loke.JPG';
 
 import { man, woman } from "./avatar";
 
@@ -251,6 +252,12 @@ const employees = [
     content: "Sherry",
     image: Sherry,
     team: TEAM.OPERATIONS,
+    isWinner: true
+  },
+  {
+    content: 'Loke',
+    image: Loke,
+    team:TEAM.DEVELOPMENT
   },
   {
     content: "JM",
