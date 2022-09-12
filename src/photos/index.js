@@ -34,7 +34,7 @@ import Kenan from "./Kenan.jpeg";
 import Preeti from "./Preeti.jpg";
 import Shruti from "./Shruti.jpeg";
 import JM from "./JM.jpg";
-import Loki from "./Loki.png";
+// import Loki from "./Loki.png";
 import Ben from "./Ben.jpg";
 import Nick from "./Nick.jpg";
 import Nicholas from "./Nicholas.jpg";
@@ -47,6 +47,7 @@ import Narmeet from "./Narmeet.jpg";
 import Szehan from "./Szehan.jpg";
 import John from "./John.jpg";
 import Loke from './Loke.JPG';
+import Mia from "./Mia.jpg";
 
 import { man, woman } from "./avatar";
 
@@ -442,8 +443,8 @@ const addExtras = (arr) => {
 
   arr.push(...shuffledInterns);
   arr.push({
-    content: "Loki",
-    image: Loki,
+    content: "Mia",
+    image: Mia,
     team: TEAM.MANAGEMENT,
   });
   arr.push({
