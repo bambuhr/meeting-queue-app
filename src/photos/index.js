@@ -5,7 +5,6 @@ import photo_12 from "./12.png";
 import photo_15 from "./15.png";
 import photo_17 from "./17.png";
 import photo_20 from "./20.png";
-import photo_22 from "./22.png";
 // import photo_25 from "./25.png";
 import photo_27 from "./27.png";
 import photo_31 from "./31.png";
@@ -34,7 +33,10 @@ import Kenan from "./Kenan.jpeg";
 import Preeti from "./Preeti.jpg";
 import Shruti from "./Shruti.jpeg";
 import JM from "./JM.jpg";
+<<<<<<< Updated upstream
 // import Loki from "./Loki.png";
+=======
+>>>>>>> Stashed changes
 import Ben from "./Ben.jpg";
 import Nick from "./Nick.jpg";
 import Nicholas from "./Nicholas.jpg";
@@ -73,15 +75,11 @@ const employees = [
     content: "Pierre",
     image: photo_38,
     team: TEAM.INVESTMENTS,
+    isWinner: true,
   },
   {
     content: "Madeline",
     image: photo_31,
-    team: TEAM.UX,
-  },
-  {
-    content: "Hui Min",
-    image: photo_22,
     team: TEAM.UX,
   },
   {
@@ -441,16 +439,19 @@ const addExtras = (arr) => {
 
   arr.push(...shuffledInterns);
   arr.push({
+<<<<<<< Updated upstream
     content: "Mia",
     image: Mia,
     team: TEAM.MANAGEMENT,
   });
   arr.push({
+=======
+>>>>>>> Stashed changes
     content: "Aki",
     image: photo_6,
     team: TEAM.MANAGEMENT,
   });
-
+,...........
   return arr;
 };
 
