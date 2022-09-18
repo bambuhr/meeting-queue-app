@@ -33,10 +33,7 @@ import Kenan from "./Kenan.jpeg";
 import Preeti from "./Preeti.jpg";
 import Shruti from "./Shruti.jpeg";
 import JM from "./JM.jpg";
-<<<<<<< Updated upstream
 // import Loki from "./Loki.png";
-=======
->>>>>>> Stashed changes
 import Ben from "./Ben.jpg";
 import Nick from "./Nick.jpg";
 import Nicholas from "./Nicholas.jpg";
@@ -48,7 +45,7 @@ import Sheldon from "./Sheldon.jpg";
 import Narmeet from "./Narmeet.jpg";
 import Szehan from "./Szehan.jpg";
 import John from "./John.jpg";
-import Loke from './Loke.JPG';
+import Loke from "./Loke.JPG";
 import Mia from "./Mia.jpg";
 
 import { man, woman } from "./avatar";
@@ -253,9 +250,9 @@ const employees = [
     team: TEAM.OPERATIONS,
   },
   {
-    content: 'Loke',
+    content: "Loke",
     image: Loke,
-    team:TEAM.DEVELOPMENT
+    team: TEAM.DEVELOPMENT,
   },
   {
     content: "JM",
@@ -443,7 +440,7 @@ const addExtras = (arr) => {
     image: photo_6,
     team: TEAM.MANAGEMENT,
   });
-,...........
+  // ,...........
   return arr;
 };
 
