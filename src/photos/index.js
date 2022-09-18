@@ -1,91 +1,90 @@
-import photo_4 from "./4.png";
-import photo_6 from "./6.png";
-import photo_9 from "./9.png";
-import photo_12 from "./12.png";
-import photo_15 from "./15.png";
-import photo_17 from "./17.png";
-import photo_20 from "./20.png";
+import photo_4 from './4.png';
+import photo_6 from './6.png';
+import photo_9 from './9.png';
+import photo_12 from './12.png';
+import photo_15 from './15.png';
+import photo_17 from './17.png';
+import photo_20 from './20.png';
 // import photo_25 from "./25.png";
-import photo_27 from "./27.png";
-import photo_31 from "./31.png";
-import photo_33 from "./33.png";
-import photo_35 from "./35.png";
-import photo_36 from "./36.png";
-import photo_38 from "./38.png";
-import photo_45 from "./45.png";
-import photo_47 from "./47.png";
-import photo_50 from "./50.png";
-import photo_58 from "./58.png";
-import Manisha from "./Manisha.jpg";
-import photo_67 from "./67.png";
+import photo_27 from './27.png';
+import photo_31 from './31.png';
+import photo_33 from './33.png';
+import photo_35 from './35.png';
+import photo_36 from './36.png';
+import photo_38 from './38.png';
+import photo_45 from './45.png';
+import photo_47 from './47.png';
+import photo_50 from './50.png';
+import photo_58 from './58.png';
+import Manisha from './Manisha.jpg';
+import photo_67 from './67.png';
 // import photo_70 from "./70.png";
-import Grace from "./Grace.jpg";
-import QiShan from "./QiShan.png";
-import Udaykant from "./Uday.jpg";
-import Fabian from "./Fabian.png";
-import Ian from "./Ian.jpg";
-import Miko from "./Miko.png";
-import Sharaf from "./Sharaf.jpg";
-import Sherry from "./Sherry.png";
-import Sowmya from "./Sowmya.jpeg";
-import Steven from "./Steven.png";
-import Kenan from "./Kenan.jpeg";
-import Preeti from "./Preeti.jpg";
-import Shruti from "./Shruti.jpeg";
-import JM from "./JM.jpg";
+import Grace from './Grace.jpg';
+import QiShan from './QiShan.png';
+import Udaykant from './Uday.jpg';
+import Fabian from './Fabian.png';
+import Ian from './Ian.jpg';
+import Miko from './Miko.png';
+import Sharaf from './Sharaf.jpg';
+import Sherry from './Sherry.png';
+import Sowmya from './Sowmya.jpeg';
+import Steven from './Steven.png';
+import Kenan from './Kenan.jpeg';
+import Preeti from './Preeti.jpg';
+import Shruti from './Shruti.jpeg';
+import JM from './JM.jpg';
 // import Loki from "./Loki.png";
-import Ben from "./Ben.jpg";
-import Nick from "./Nick.jpg";
-import Nicholas from "./Nicholas.jpg";
-import Mizu from "./Mizu.jpg";
-import Ostin from "./ostin.jpg";
-import Johannes from "./johannes.jpg";
-import Abhishek from "./abhishek.png";
-import Sheldon from "./Sheldon.jpg";
-import Narmeet from "./Narmeet.jpg";
-import Szehan from "./Szehan.jpg";
-import John from "./John.jpg";
-import Loke from "./Loke.JPG";
-import Mia from "./Mia.jpg";
+import Ben from './Ben.jpg';
+import Nick from './Nick.jpg';
+import Nicholas from './Nicholas.jpg';
+import Mizu from './Mizu.jpg';
+import Ostin from './ostin.jpg';
+import Johannes from './johannes.jpg';
+import Abhishek from './abhishek.png';
+import Sheldon from './Sheldon.jpg';
+import Narmeet from './Narmeet.jpg';
+import Szehan from './Szehan.jpg';
+import John from './John.jpg';
+import Loke from './Loke.JPG';
 
-import { man, woman } from "./avatar";
+import { man, woman } from './avatar';
 
 const TEAM = {
-  MARKETING: "marketing team",
-  SALES: "sales team",
-  INVESTMENTS: "investments team",
-  UX: "ui/ux team",
-  DEVELOPMENT: "development team",
-  FINANCE: "finance team",
-  TESTING: "testing team",
-  BA: "b.a. team",
-  PM: "p.m. team",
-  SUPPORT: "support team",
-  DESIGN: "design team",
-  MANAGEMENT: "management team",
-  HR: "hr team",
-  OPERATIONS: "operations team",
+  MARKETING: 'marketing team',
+  SALES: 'sales team',
+  INVESTMENTS: 'investments team',
+  UX: 'ui/ux team',
+  DEVELOPMENT: 'development team',
+  FINANCE: 'finance team',
+  TESTING: 'testing team',
+  BA: 'b.a. team',
+  PM: 'p.m. team',
+  SUPPORT: 'support team',
+  DESIGN: 'design team',
+  MANAGEMENT: 'management team',
+  HR: 'hr team',
+  OPERATIONS: 'operations team',
 };
 
 const employees = [
   {
-    content: "Pierre",
+    content: 'Pierre',
     image: photo_38,
     team: TEAM.INVESTMENTS,
     isWinner: true,
   },
   {
-    content: "Madeline",
+    content: 'Madeline',
     image: photo_31,
     team: TEAM.UX,
   },
   {
-    content: "Ajay",
+    content: 'Ajay',
     image: photo_4,
     team: TEAM.SALES,
   },
   {
-    content: "Shekhar",
+    content: 'Shekhar',
     image: photo_47,
     team: TEAM.TESTING,
   },
@@ -95,117 +94,117 @@ const employees = [
   //   team: TEAM.TESTING,
   // },
   {
-    content: "Azman",
+    content: 'Azman',
     image: photo_12,
     team: TEAM.DESIGN,
   },
   {
-    content: "Kruthika",
+    content: 'Kruthika',
     image: photo_27,
     team: TEAM.BA,
   },
   {
-    content: "Nithin",
+    content: 'Nithin',
     image: photo_36,
     team: TEAM.DEVELOPMENT,
   },
   {
-    content: "Manisha",
+    content: 'Manisha',
     image: Manisha,
     team: TEAM.TESTING,
   },
   {
-    content: "Dan",
+    content: 'Dan',
     image: photo_17,
     team: TEAM.DEVELOPMENT,
   },
   {
-    content: "Tony",
+    content: 'Tony',
     image: photo_50,
     team: TEAM.DEVELOPMENT,
   },
   {
-    content: "Maris",
+    content: 'Maris',
     image: photo_9,
     team: TEAM.BA,
   },
   {
-    content: "Heintze",
+    content: 'Heintze',
     image: photo_58,
     team: TEAM.HR,
   },
   {
-    content: "Haja",
+    content: 'Haja',
     image: photo_20,
     team: TEAM.MANAGEMENT,
   },
   {
-    content: "Mellisa",
+    content: 'Mellisa',
     image: photo_33,
     team: TEAM.MANAGEMENT,
   },
   {
-    content: "Carina",
+    content: 'Carina',
     image: photo_15,
     team: TEAM.SALES,
   },
   {
-    content: "Sneha",
+    content: 'Sneha',
     image: woman(),
     team: TEAM.TESTING,
   },
   {
-    content: "Prabha",
+    content: 'Prabha',
     image: woman(),
     team: TEAM.TESTING,
   },
   {
-    content: "Santosh",
+    content: 'Santosh',
     image: photo_45,
     team: TEAM.TESTING,
   },
   {
-    content: "David",
+    content: 'David',
     image: photo_67,
     team: TEAM.UX,
   },
   {
-    content: "Sowmya",
+    content: 'Sowmya',
     image: Sowmya,
     team: TEAM.PM,
   },
   {
-    content: "Miko",
+    content: 'Miko',
     image: Miko,
     team: TEAM.UX,
   },
   {
-    content: "Ian",
+    content: 'Ian',
     image: Ian,
     team: TEAM.DEVELOPMENT,
   },
   {
-    content: "Johannes",
+    content: 'Johannes',
     image: Johannes,
     team: TEAM.DEVELOPMENT,
   },
   {
-    content: "Kenan",
+    content: 'Kenan',
     image: Kenan,
     team: TEAM.DEVELOPMENT,
   },
   {
-    content: "Shruti",
+    content: 'Shruti',
     image: Shruti,
     team: TEAM.TESTING,
   },
   {
-    content: "Preeti",
+    content: 'Preeti',
     image: Preeti,
     team: TEAM.TESTING,
   },
   {
-    content: "Qi Shan",
+    content: 'Qi Shan',
     image: QiShan,
     team: TEAM.DESIGN,
   },
@@ -215,167 +214,167 @@ const employees = [
   //   team: TEAM.PM,
   // },
   {
-    content: "Steven",
+    content: 'Steven',
     image: Steven,
     team: TEAM.UX,
   },
   {
-    content: "Narmeet",
+    content: 'Narmeet',
     image: Narmeet,
     team: TEAM.DEVELOPMENT,
   },
   {
-    content: "Grace",
+    content: 'Grace',
     image: Grace,
     team: TEAM.INVESTMENTS,
   },
   {
-    content: "Sharaf",
+    content: 'Sharaf',
     image: Sharaf,
     team: TEAM.PM,
   },
   {
-    content: "Fabian",
+    content: 'Fabian',
     image: Fabian,
     team: TEAM.BA,
   },
   {
-    content: "John",
+    content: 'John',
     image: John,
     team: TEAM.SUPPORT,
   },
   {
-    content: "Sherry",
+    content: 'Sherry',
     image: Sherry,
     team: TEAM.OPERATIONS,
   },
   {
-    content: "Loke",
+    content: 'Loke',
     image: Loke,
     team: TEAM.DEVELOPMENT,
   },
   {
-    content: "JM",
+    content: 'JM',
     image: JM,
     team: TEAM.SUPPORT,
   },
   {
-    content: "Charitie",
+    content: 'Charitie',
     image: woman(),
     team: TEAM.SUPPORT,
   },
   {
-    content: "Udaykant",
+    content: 'Udaykant',
     image: Udaykant,
     team: TEAM.BA,
   },
   {
-    content: "Mizu",
+    content: 'Mizu',
     image: Mizu,
     team: TEAM.MARKETING,
   },
   {
-    content: "Ostin",
+    content: 'Ostin',
     image: Ostin,
     team: TEAM.BA,
   },
   {
-    content: "Nick",
+    content: 'Nick',
     image: Nick,
     team: TEAM.SALES,
   },
   {
-    content: "Nicholas",
+    content: 'Nicholas',
     image: Nicholas,
     team: TEAM.BA,
   },
   {
-    content: "Beyhan",
+    content: 'Beyhan',
     image: man(),
     team: TEAM.DEVELOPMENT,
   },
   {
-    content: "Prasoon",
+    content: 'Prasoon',
     image: man(),
     team: TEAM.DEVELOPMENT,
   },
   {
-    content: "Bernadette",
+    content: 'Bernadette',
     image: woman(),
     team: TEAM.TESTING,
   },
   {
-    content: "Chinmay",
+    content: 'Chinmay',
     image: man(),
     team: TEAM.TESTING,
   },
   {
-    content: "Thirupathi",
+    content: 'Thirupathi',
     image: man(),
     team: TEAM.DEVELOPMENT,
   },
   {
-    content: "Ashwini",
+    content: 'Ashwini',
     image: woman(),
     team: TEAM.TESTING,
   },
   {
-    content: "Pravinkumar",
+    content: 'Pravinkumar',
     image: man(),
     team: TEAM.DEVELOPMENT,
   },
   {
-    content: "Vipul",
+    content: 'Vipul',
     image: man(),
     team: TEAM.PM,
   },
   {
-    content: "Avinash",
+    content: 'Avinash',
     image: man(),
     team: TEAM.DEVELOPMENT,
   },
   {
-    content: "Aidan",
+    content: 'Aidan',
     image: man(),
     team: TEAM.TESTING,
   },
   {
-    content: "Georgia",
+    content: 'Georgia',
     image: woman(),
     team: TEAM.INVESTMENTS,
   },
   {
-    content: "Sachin",
+    content: 'Sachin',
     image: man(),
     team: TEAM.FINANCE,
   },
   {
-    content: "Seetaram",
+    content: 'Seetaram',
     image: man(),
     team: TEAM.DEVELOPMENT,
   },
   {
-    content: "Pavan",
+    content: 'Pavan',
     image: man(),
     team: TEAM.DEVELOPMENT,
   },
   {
-    content: "Ben",
+    content: 'Ben',
     image: Ben,
     team: TEAM.DEVELOPMENT,
   },
   {
-    content: "Abhishek",
+    content: 'Abhishek',
     image: Abhishek,
     team: TEAM.DEVELOPMENT,
   },
   {
-    content: "Sheldon",
+    content: 'Sheldon',
     image: Sheldon,
     team: TEAM.DEVELOPMENT,
   },
   {
-    content: "Sze Han",
+    content: 'Sze Han',
     image: Szehan,
     team: TEAM.MARKETING,
   },
@@ -383,7 +382,7 @@ const employees = [
 
 const interns = [
   {
-    content: "Sana",
+    content: 'Sana',
     image: woman(),
     team: TEAM.SALES,
   },
@@ -391,7 +390,7 @@ const interns = [
 
 const tradeSocio = [
   {
-    content: "Simon",
+    content: 'Simon',
     image: man(),
     team: TEAM.SUPPORT,
   },
@@ -429,14 +428,14 @@ const shuffledInterns = shuffleArray(interns);
 
 const addExtras = (arr) => {
   arr.unshift({
-    content: "Ned",
+    content: 'Ned',
     image: photo_35,
     team: TEAM.MANAGEMENT,
   });
 
   arr.push(...shuffledInterns);
   arr.push({
-    content: "Aki",
+    content: 'Aki',
     image: photo_6,
     team: TEAM.MANAGEMENT,
   });
