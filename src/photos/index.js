@@ -439,14 +439,6 @@ const addExtras = (arr) => {
 
   arr.push(...shuffledInterns);
   arr.push({
-<<<<<<< Updated upstream
-    content: "Mia",
-    image: Mia,
-    team: TEAM.MANAGEMENT,
-  });
-  arr.push({
-=======
->>>>>>> Stashed changes
     content: "Aki",
     image: photo_6,
     team: TEAM.MANAGEMENT,
