@@ -46,8 +46,10 @@ import Narmeet from "./Narmeet.jpg";
 import Szehan from "./Szehan.jpg";
 import John from "./John.jpg";
 import Loke from "./Loke.JPG";
+import Mia from "./Mia.jpg";
 
 import { man, woman } from "./avatar";
+import { MainImage } from "pages/MeetingPage/styles";
 
 const TEAM = {
   MARKETING: "marketing team",
@@ -440,6 +442,10 @@ const addExtras = (arr) => {
 
   arr.push(...shuffledInterns);
   arr.push({
+    content: "Mia",
+    image: Mia,
+    team: TEAM.MANAGEMENT,
+
     content: "Aki",
     image: photo_6,
     team: TEAM.MANAGEMENT,
