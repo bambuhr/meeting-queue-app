@@ -445,7 +445,9 @@ const addExtras = (arr) => {
     content: "Mia",
     image: Mia,
     team: TEAM.MANAGEMENT,
+  });
 
+  arr.push({
     content: "Aki",
     image: photo_6,
     team: TEAM.MANAGEMENT,
