@@ -47,6 +47,7 @@ import Szehan from "./Szehan.jpg";
 import John from "./John.jpg";
 import Loke from "./Loke.JPG";
 import Mia from "./Mia.jpg";
+import Bean from "./Bean.jpg";
 
 import { man, woman } from "./avatar";
 import { MainImage } from "pages/MeetingPage/styles";
@@ -441,9 +442,14 @@ const addExtras = (arr) => {
   });
 
   arr.push(...shuffledInterns);
+  // arr.push({
+  //   content: "Mia",
+  //   image: Mia,
+  //   team: TEAM.MANAGEMENT,
+  // });
   arr.push({
-    content: "Mia",
-    image: Mia,
+    content: "Bean",
+    image: Bean,
     team: TEAM.MANAGEMENT,
   });
 
