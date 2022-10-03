@@ -54,6 +54,7 @@ import { MainImage } from "pages/MeetingPage/styles";
 
 const TEAM = {
   MARKETING: "marketing team",
+  HAPPINESS: "happiness team",
   SALES: "sales team",
   INVESTMENTS: "investments team",
   UX: "ui/ux team",
@@ -455,7 +456,7 @@ const addExtras = (arr) => {
   arr.push({
     content: "Bean",
     image: Bean,
-    team: TEAM.MANAGEMENT,
+    team: TEAM.HAPPINESS,
   });
 
   arr.push({
