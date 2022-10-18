@@ -395,13 +395,13 @@ const employees = [
   },
 ];
 
-const interns = [
-  {
-    content: "Sana",
-    image: woman(),
-    team: TEAM.SALES,
-  },
-];
+// const interns = [
+//   {
+//     content: "Sana",
+//     image: woman(),
+//     team: TEAM.SALES,
+//   },
+// ];
 
 const tradeSocio = [
   {
