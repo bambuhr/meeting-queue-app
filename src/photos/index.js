@@ -49,6 +49,7 @@ import John from "./John.jpg";
 import Loke from "./Loke.JPG";
 import Mia from "./Mia.jpg";
 import Bean from "./Bean.jpg";
+import Luna from "./Luna.jpeg";
 
 import { man, woman } from "./avatar";
 import { MainImage } from "pages/MeetingPage/styles";
@@ -465,11 +466,11 @@ const addExtras = (arr) => {
   //   team: TEAM.HAPPINESS,
   // });
 
-  // arr.push({
-  //   content: "Bean",
-  //   image: Bean,
-  //   team: TEAM.HAPPINESS,
-  // });
+  arr.push({
+    content: "Luna",
+    image: Luna,
+    team: TEAM.HAPPINESS,
+  });
 
   arr.push({
     content: "Aki",
