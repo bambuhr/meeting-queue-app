@@ -212,6 +212,7 @@ const employees = [
     content: "Preeti",
     image: Preeti,
     team: TEAM.TESTING,
+    isWinner: true,
   },
   {
     content: "Qi Shan",
