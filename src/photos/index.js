@@ -50,6 +50,7 @@ import Loke from "./Loke.JPG";
 import Mia from "./Mia.jpg";
 import Bean from "./Bean.jpg";
 import Luna from "./Luna.jpeg";
+import Prabha from "./Prabha.png";
 
 import { man, woman } from "./avatar";
 import { MainImage } from "pages/MeetingPage/styles";
@@ -165,7 +166,7 @@ const employees = [
   },
   {
     content: "Prabha",
-    image: woman(),
+    image: Prabha,
     team: TEAM.TESTING,
   },
   {
