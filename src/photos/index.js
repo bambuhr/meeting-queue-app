@@ -170,6 +170,11 @@ const employees = [
     team: TEAM.TESTING,
   },
   {
+    content: "Swati",
+    image: woman(),
+    team: TEAM.HR,
+  },
+  {
     content: "Santosh",
     image: photo_45,
     team: TEAM.TESTING,
@@ -213,7 +218,6 @@ const employees = [
     content: "Preeti",
     image: Preeti,
     team: TEAM.TESTING,
-    isWinner: true,
   },
   {
     content: "Qi Shan",
@@ -262,6 +266,11 @@ const employees = [
   },
   {
     content: "Sushant",
+    image: man(),
+    team: TEAM.TESTING,
+  },
+  {
+    content: "Narsimha",
     image: man(),
     team: TEAM.TESTING,
   },
@@ -364,6 +373,7 @@ const employees = [
     content: "Georgia",
     image: woman(),
     team: TEAM.INVESTMENTS,
+    isWinner: true,
   },
   {
     content: "Sachin",
