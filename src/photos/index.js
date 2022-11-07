@@ -224,11 +224,11 @@ const employees = [
     image: QiShan,
     team: TEAM.DESIGN,
   },
-  // {
-  //   content: "Phil",
-  //   image: photo_70,
-  //   team: TEAM.PM,
-  // },
+  {
+    content: "Phil",
+    image: photo_70,
+    team: TEAM.PM,
+  },
   {
     content: "Steven",
     image: Steven,
