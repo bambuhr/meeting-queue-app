@@ -378,7 +378,6 @@ const employees = [
     content: "Georgia",
     image: woman(),
     team: TEAM.INVESTMENTS,
-    isWinner: true,
   },
   {
     content: "Sachin",
