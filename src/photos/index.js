@@ -290,11 +290,6 @@ const employees = [
     team: TEAM.SUPPORT,
   },
   {
-    content: "Charitie",
-    image: woman(),
-    team: TEAM.SUPPORT,
-  },
-  {
     content: "Rajani",
     image: woman(),
     team: TEAM.SUPPORT,
