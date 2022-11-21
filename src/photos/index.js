@@ -19,7 +19,7 @@ import photo_58 from "./58.png";
 import Manisha from "./Manisha.jpg";
 import photo_67 from "./67.png";
 import Sachin from "./Sachin.png";
-import photo_70 from "./70.png";
+// import photo_70 from "./70.png";
 import Grace from "./Grace.jpg";
 import QiShan from "./QiShan.png";
 import Udaykant from "./Uday.jpg";
@@ -139,11 +139,11 @@ const employees = [
     image: photo_9,
     team: TEAM.BA,
   },
-  {
-    content: "Heintze",
-    image: photo_58,
-    team: TEAM.HR,
-  },
+  // {
+  //   content: "Heintze",
+  //   image: photo_58,
+  //   team: TEAM.HR,
+  // },
   {
     content: "Haja",
     image: photo_20,
@@ -224,11 +224,11 @@ const employees = [
     image: QiShan,
     team: TEAM.DESIGN,
   },
-  {
-    content: "Phil",
-    image: photo_70,
-    team: TEAM.PM,
-  },
+  // {
+  //   content: "Phil",
+  //   image: photo_70,
+  //   team: TEAM.PM,
+  // },
   {
     content: "Steven",
     image: Steven,
@@ -465,6 +465,15 @@ const addExtras = (arr) => {
     team: TEAM.MANAGEMENT,
   });
 
+  arr.push({
+    content: "Heintze",
+    image: photo_58,
+    team: TEAM.HR,
+    // content: "Luna",
+    // image: Luna,
+    // team: TEAM.HAPPINESS,
+  });
+
   arr.push(...shuffledInterns);
   // arr.push({
   //   content: "Mia",
@@ -476,12 +485,6 @@ const addExtras = (arr) => {
   //   image: Bean,
   //   team: TEAM.HAPPINESS,
   // });
-
-  arr.push({
-    content: "Luna",
-    image: Luna,
-    team: TEAM.HAPPINESS,
-  });
 
   arr.push({
     content: "Aki",
