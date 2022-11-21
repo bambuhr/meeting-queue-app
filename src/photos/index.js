@@ -19,7 +19,7 @@ import photo_58 from "./58.png";
 import Manisha from "./Manisha.jpg";
 import photo_67 from "./67.png";
 import Sachin from "./Sachin.png";
-// import photo_70 from "./70.png";
+import photo_70 from "./70.png";
 import Grace from "./Grace.jpg";
 import QiShan from "./QiShan.png";
 import Udaykant from "./Uday.jpg";
