@@ -139,11 +139,11 @@ const employees = [
     image: photo_9,
     team: TEAM.BA,
   },
-  // {
-  //   content: "Heintze",
-  //   image: photo_58,
-  //   team: TEAM.HR,
-  // },
+  {
+    content: "Heintze",
+    image: photo_58,
+    team: TEAM.HR,
+  },
   {
     content: "Haja",
     image: photo_20,
@@ -466,9 +466,6 @@ const addExtras = (arr) => {
   });
 
   arr.push({
-    content: "Heintze",
-    image: photo_58,
-    team: TEAM.HR,
     // content: "Luna",
     // image: Luna,
     // team: TEAM.HAPPINESS,
