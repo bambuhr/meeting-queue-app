@@ -32,7 +32,7 @@ import Sowmya from "./Sowmya.jpeg";
 import Steven from "./Steven.png";
 import Kenan from "./Kenan.jpeg";
 import Preeti from "./Preeti.jpg";
-import Shruti from "./Shruti.jpeg";
+// import Shruti from "./Shruti.jpeg";
 import JM from "./JM.jpg";
 // import Loki from "./Loki.png";
 import Ben from "./Ben.jpg";
@@ -159,11 +159,11 @@ const employees = [
     image: photo_15,
     team: TEAM.SALES,
   },
-  {
-    content: "Sneha",
-    image: woman(),
-    team: TEAM.TESTING,
-  },
+  // {
+  //   content: "Sneha",
+  //   image: woman(),
+  //   team: TEAM.TESTING,
+  // },
   {
     content: "Prabha",
     image: Prabha,
@@ -209,11 +209,11 @@ const employees = [
     image: Kenan,
     team: TEAM.DEVELOPMENT,
   },
-  {
-    content: "Shruti",
-    image: Shruti,
-    team: TEAM.TESTING,
-  },
+  // {
+  //   content: "Shruti",
+  //   image: Shruti,
+  //   team: TEAM.TESTING,
+  // },
   {
     content: "Preeti",
     image: Preeti,
