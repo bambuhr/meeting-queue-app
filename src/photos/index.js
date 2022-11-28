@@ -19,7 +19,7 @@ import photo_58 from "./58.png";
 import Manisha from "./Manisha.jpg";
 import photo_67 from "./67.png";
 import Sachin from "./Sachin.png";
-// import photo_70 from "./70.png";
+import photo_70 from "./70.png";
 import Grace from "./Grace.jpg";
 import QiShan from "./QiShan.png";
 import Udaykant from "./Uday.jpg";
@@ -224,11 +224,11 @@ const employees = [
     image: QiShan,
     team: TEAM.DESIGN,
   },
-  // {
-  //   content: "Phil",
-  //   image: photo_70,
-  //   team: TEAM.PM,
-  // },
+  {
+    content: "Phil",
+    image: photo_70,
+    team: TEAM.PM,
+  },
   {
     content: "Steven",
     image: Steven,
@@ -303,6 +303,7 @@ const employees = [
     content: "Mizu",
     image: Mizu,
     team: TEAM.MARKETING,
+    isWinner: true,
   },
   {
     content: "Ostin",
@@ -313,7 +314,6 @@ const employees = [
     content: "Nick",
     image: Nick,
     team: TEAM.SALES,
-    isWinner: true,
   },
   {
     content: "Nicholas",
