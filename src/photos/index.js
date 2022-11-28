@@ -465,13 +465,13 @@ const addExtras = (arr) => {
     team: TEAM.MANAGEMENT,
   });
 
-  arr.push({
-    // content: "Luna",
-    // image: Luna,
-    // team: TEAM.HAPPINESS,
-  });
+  // arr.push({
+  //   // content: "Luna",
+  //   // image: Luna,
+  //   // team: TEAM.HAPPINESS,
+  // });
 
-  arr.push(...shuffledInterns);
+  // arr.push(...shuffledInterns);
   // arr.push({
   //   content: "Mia",
   //   image: Mia,
