@@ -35,6 +35,7 @@ import Preeti from "./Preeti.jpg";
 // import Shruti from "./Shruti.jpeg";
 import JM from "./JM.jpg";
 // import Loki from "./Loki.png";
+import Baldip from "./Baldip.png";
 import Ben from "./Ben.jpg";
 import Nick from "./Nick.jpg";
 import Nicholas from "./Nicholas.jpg";
@@ -87,6 +88,11 @@ const employees = [
   {
     content: "Ajay",
     image: photo_4,
+    team: TEAM.SALES,
+  },
+  {
+    content: "Baldip",
+    image: Baldip,
     team: TEAM.SALES,
   },
   {
