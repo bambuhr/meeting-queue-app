@@ -426,13 +426,13 @@ const interns = [
   // },
 ];
 
-const tradeSocio = [
-  {
-    content: "Simon",
-    image: man(),
-    team: TEAM.SUPPORT,
-  },
-];
+// const tradeSocio = [
+//   {
+//     content: "Simon",
+//     image: man(),
+//     team: TEAM.SUPPORT,
+//   },
+// ];
 
 function shuffleArray(array) {
   var currentIndex = array.length,
