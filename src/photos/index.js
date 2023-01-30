@@ -50,6 +50,7 @@ import Mia from "./Mia.jpg";
 import Bean from "./Bean.jpg";
 import Luna from "./Luna.jpeg";
 import Prabha from "./Prabha.png";
+import Mat from "./mat.png";
 
 import { man, woman } from "./avatar";
 import { MainImage } from "pages/MeetingPage/styles";
@@ -84,11 +85,6 @@ const employees = [
     team: TEAM.UX,
   },
   {
-    content: "Ajay",
-    image: photo_4,
-    team: TEAM.SALES,
-  },
-  {
     content: "Baldip",
     image: Baldip,
     team: TEAM.SALES,
@@ -98,11 +94,6 @@ const employees = [
     image: photo_47,
     team: TEAM.TESTING,
   },
-  // {
-  //   content: "Hemanth",
-  //   image: man(),
-  //   team: TEAM.TESTING,
-  // },
   {
     content: "Azman",
     image: photo_12,
@@ -119,6 +110,11 @@ const employees = [
     team: TEAM.DEVELOPMENT,
   },
   {
+    content: "Mat",
+    image: Mat,
+    team: TEAM.DEVELOPMENT,
+  },
+  {
     content: "Manisha",
     image: Manisha,
     team: TEAM.TESTING,
@@ -126,6 +122,11 @@ const employees = [
   {
     content: "Dan",
     image: photo_17,
+    team: TEAM.DEVELOPMENT,
+  },
+  {
+    content: "Ken",
+    image: man(),
     team: TEAM.DEVELOPMENT,
   },
   {
@@ -214,11 +215,6 @@ const employees = [
     team: TEAM.TESTING,
   },
   {
-    content: "Qi Shan",
-    image: QiShan,
-    team: TEAM.DESIGN,
-  },
-  {
     content: "Phil",
     image: photo_70,
     team: TEAM.PM,
@@ -237,16 +233,6 @@ const employees = [
     content: "Grace",
     image: Grace,
     team: TEAM.INVESTMENTS,
-  },
-  {
-    content: "Sharaf",
-    image: Sharaf,
-    team: TEAM.PM,
-  },
-  {
-    content: "Fabian",
-    image: Fabian,
-    team: TEAM.BA,
   },
   {
     content: "John",
@@ -364,11 +350,6 @@ const employees = [
     team: TEAM.PM,
   },
   {
-    content: "Aidan",
-    image: man(),
-    team: TEAM.TESTING,
-  },
-  {
     content: "Georgia",
     image: woman(),
     team: TEAM.INVESTMENTS,
@@ -393,38 +374,9 @@ const employees = [
     image: Ben,
     team: TEAM.DEVELOPMENT,
   },
-  {
-    content: "Abhishek",
-    image: Abhishek,
-    team: TEAM.DEVELOPMENT,
-  },
-  {
-    content: "Sheldon",
-    image: Sheldon,
-    team: TEAM.DEVELOPMENT,
-  },
-  {
-    content: "Sze Han",
-    image: Szehan,
-    team: TEAM.MARKETING,
-  },
 ];
 
-const interns = [
-  // {
-  //   content: "Sana",
-  //   image: woman(),
-  //   team: TEAM.SALES,
-  // },
-];
-
-// const tradeSocio = [
-//   {
-//     content: "Simon",
-//     image: man(),
-//     team: TEAM.SUPPORT,
-//   },
-// ];
+const interns = [];
 
 function shuffleArray(array) {
   var currentIndex = array.length,
