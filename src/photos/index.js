@@ -430,9 +430,9 @@ const addExtras = (arr) => {
   // });
 
   arr.push({
-    content: "Aki",
-    image: photo_6,
-    team: TEAM.MANAGEMENT,
+    // content: "Aki",
+    // image: photo_6,
+    // team: TEAM.MANAGEMENT,
   });
   // ,...........
   return arr;
