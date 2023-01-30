@@ -29,6 +29,7 @@ import Sharaf from "./Sharaf.jpg";
 import Sherry from "./Sherry.png";
 import Steven from "./Steven.png";
 import Kenan from "./Kenan.jpeg";
+import Ken from "./Ken.jpeg";
 import Preeti from "./Preeti.jpg";
 // import Shruti from "./Shruti.jpeg";
 import JM from "./JM.jpg";
@@ -126,7 +127,7 @@ const employees = [
   },
   {
     content: "Ken",
-    image: man(),
+    image: Ken,
     team: TEAM.DEVELOPMENT,
   },
   {
