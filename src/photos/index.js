@@ -248,6 +248,7 @@ const employees = [
     content: "Sherry",
     image: Sherry,
     team: TEAM.OPERATIONS,
+    isWinner: true,
   },
   {
     content: "Sushant",
