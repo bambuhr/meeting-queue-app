@@ -50,7 +50,7 @@ import Mia from "./Mia.jpg";
 import Bean from "./Bean.jpg";
 import Luna from "./Luna.jpeg";
 import Prabha from "./Prabha.png";
-import Mat from "./mat.png";
+import Mat from "./Mat.png";
 
 import { man, woman } from "./avatar";
 import { MainImage } from "pages/MeetingPage/styles";
