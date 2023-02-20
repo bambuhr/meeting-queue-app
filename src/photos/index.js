@@ -158,7 +158,6 @@ const employees = [
     content: "Carina",
     image: photo_15,
     team: TEAM.SALES,
-    isWinner: true,
   },
   // {
   //   content: "Sneha",
@@ -304,6 +303,7 @@ const employees = [
     content: "Nicholas",
     image: Nicholas,
     team: TEAM.BA,
+    isWinner: true,
   },
   {
     content: "Beyhan",
