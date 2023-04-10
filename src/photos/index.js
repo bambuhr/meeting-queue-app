@@ -183,6 +183,7 @@ const employees = [
     content: "David",
     image: photo_67,
     team: TEAM.UX,
+    isWinner: true,
   },
   {
     content: "Ian",
@@ -413,7 +414,6 @@ const addExtras = (arr) => {
     content: "Ned",
     image: photo_35,
     team: TEAM.MANAGEMENT,
-    isWinner: true,
   });
 
   // arr.push({
