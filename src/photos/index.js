@@ -78,6 +78,7 @@ const employees = [
     content: "Madeline",
     image: photo_31,
     team: TEAM.UX,
+    isWinner: true,
   },
   {
     content: "Baldip",
@@ -338,7 +339,6 @@ const employees = [
     content: "Gunvant",
     image: man(),
     team: TEAM.DEVELOPMENT,
-    isWinner: true,
   },
   {
     content: "Vipul",
