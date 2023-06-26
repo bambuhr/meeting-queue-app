@@ -46,6 +46,7 @@ import Bean from "./Bean.jpg";
 import Luna from "./Luna.jpeg";
 import Prabha from "./Prabha.png";
 import Mat from "./Mat.png";
+import Tom from "./Tom.png";
 
 import { man, woman } from "./avatar";
 import { MainImage } from "pages/MeetingPage/styles";
@@ -237,7 +238,7 @@ const employees = [
   },
   {
     content: "Tom",
-    image: man(),
+    image: Tom,
     team: TEAM.BA,
   },
   {
