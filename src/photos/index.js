@@ -39,7 +39,6 @@ import Mizu from "./Mizu.jpg";
 import Ostin from "./ostin.jpg";
 import Johannes from "./johannes.jpg";
 import Narmeet from "./Narmeet.jpg";
-import John from "./John.jpg";
 import Loke from "./Loke.JPG";
 import Mia from "./Mia.jpg";
 import Bean from "./Bean.jpg";
@@ -224,11 +223,6 @@ const employees = [
     content: "Grace",
     image: Grace,
     team: TEAM.INVESTMENTS,
-  },
-  {
-    content: "John",
-    image: John,
-    team: TEAM.SUPPORT,
   },
   {
     content: "Ravi",
