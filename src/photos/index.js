@@ -27,7 +27,7 @@ import Sherry from "./Sherry.png";
 import Steven from "./Steven.png";
 import Kenan from "./Kenan.jpeg";
 import Ken from "./Ken.jpeg";
-import Preeti from "./Preeti.jpg";
+// import Preeti from "./Preeti.jpg";
 // import Shruti from "./Shruti.jpeg";
 import JM from "./JM.jpg";
 // import Loki from "./Loki.png";
@@ -194,15 +194,10 @@ const employees = [
     team: TEAM.DEVELOPMENT,
   },
   // {
-  //   content: "Shruti",
-  //   image: Shruti,
+  //   content: "Preeti",
+  //   image: Preeti,
   //   team: TEAM.TESTING,
   // },
-  {
-    content: "Preeti",
-    image: Preeti,
-    team: TEAM.TESTING,
-  },
   // {
   //   content: "Phil",
   //   image: photo_70,
