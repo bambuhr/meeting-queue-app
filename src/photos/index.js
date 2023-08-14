@@ -318,11 +318,11 @@ const employees = [
     image: man(),
     team: TEAM.DEVELOPMENT,
   },
-  {
-    content: "Ashwini",
-    image: woman(),
-    team: TEAM.TESTING,
-  },
+  // {
+  //   content: "Ashwini",
+  //   image: woman(),
+  //   team: TEAM.TESTING,
+  // },
   {
     content: "Pravinkumar",
     image: man(),
