@@ -270,11 +270,11 @@ const employees = [
     image: Udaykant,
     team: TEAM.BA,
   },
-  {
-    content: "Mizu",
-    image: Mizu,
-    team: TEAM.MARKETING,
-  },
+  // {
+  //   content: "Mizu",
+  //   image: Mizu,
+  //   team: TEAM.MARKETING,
+  // },
   {
     content: "Ostin",
     image: Ostin,
