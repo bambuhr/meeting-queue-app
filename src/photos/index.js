@@ -161,11 +161,6 @@ const employees = [
     team: TEAM.TESTING,
   },
   {
-    content: "Swati",
-    image: woman(),
-    team: TEAM.HR,
-  },
-  {
     content: "Santosh",
     image: photo_45,
     team: TEAM.TESTING,
