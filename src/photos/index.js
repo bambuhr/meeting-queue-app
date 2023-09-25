@@ -44,7 +44,6 @@ import Mia from "./Mia.jpg";
 import Bean from "./Bean.jpg";
 import Luna from "./Luna.jpeg";
 import Prabha from "./Prabha.png";
-import Mat from "./Mat.png";
 // import Mike from "./Mike.jpeg";
 
 import { man, woman } from "./avatar";
@@ -102,11 +101,6 @@ const employees = [
   {
     content: "Nithin",
     image: photo_36,
-    team: TEAM.DEVELOPMENT,
-  },
-  {
-    content: "Mat",
-    image: Mat,
     team: TEAM.DEVELOPMENT,
   },
   {
@@ -283,11 +277,6 @@ const employees = [
     content: "Nicholas",
     image: Nicholas,
     team: TEAM.BA,
-  },
-  {
-    content: "Beyhan",
-    image: man(),
-    team: TEAM.DEVELOPMENT,
   },
   {
     content: "Prasoon",
