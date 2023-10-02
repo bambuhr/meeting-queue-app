@@ -284,6 +284,11 @@ const employees = [
     team: TEAM.DEVELOPMENT,
   },
   {
+    content: "Aditya",
+    image: man(),
+    team: TEAM.DEVELOPMENT,
+  },
+  {
     content: "Bernadette",
     image: woman(),
     team: TEAM.TESTING,
