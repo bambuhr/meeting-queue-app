@@ -344,6 +344,11 @@ const employees = [
     image: Ben,
     team: TEAM.DEVELOPMENT,
   },
+  {
+    content: "Heintze",
+    image: photo_58,
+    team: TEAM.HR,
+  },
 ];
 
 const interns = [];
@@ -379,18 +384,11 @@ const zToAList = [...employees]
 const shuffledInterns = shuffleArray(interns);
 
 const addExtras = (arr) => {
-  arr.unshift(
-    {
-      content: "Ned",
-      image: photo_35,
-      team: TEAM.MANAGEMENT,
-    },
-    {
-      content: "Heintze",
-      image: photo_58,
-      team: TEAM.HR,
-    }
-  );
+  arr.unshift({
+    content: "Ned",
+    image: photo_35,
+    team: TEAM.MANAGEMENT,
+  });
 
   // arr.push({
   //   // content: "Luna",
