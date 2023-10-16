@@ -39,7 +39,6 @@ import Mizu from "./Mizu.jpg";
 import Ostin from "./ostin.jpg";
 import Johannes from "./johannes.jpg";
 import Narmeet from "./Narmeet.jpg";
-import Loke from "./Loke.JPG";
 import Mia from "./Mia.jpg";
 import Bean from "./Bean.jpg";
 import Luna from "./Luna.jpeg";
@@ -162,7 +161,6 @@ const employees = [
     content: "David",
     image: photo_67,
     team: TEAM.UX,
-    isWinner: true,
   },
   {
     content: "Ian",
@@ -228,11 +226,6 @@ const employees = [
     content: "Sushant",
     image: man(),
     team: TEAM.TESTING,
-  },
-  {
-    content: "Loke",
-    image: Loke,
-    team: TEAM.DEVELOPMENT,
   },
   {
     content: "Ujjwal",
@@ -325,11 +318,6 @@ const employees = [
     team: TEAM.PM,
   },
   {
-    content: "Georgia",
-    image: woman(),
-    team: TEAM.INVESTMENTS,
-  },
-  {
     content: "Sachin",
     image: Sachin,
     team: TEAM.FINANCE,
@@ -343,11 +331,6 @@ const employees = [
     content: "Ben",
     image: Ben,
     team: TEAM.DEVELOPMENT,
-  },
-  {
-    content: "Heintze",
-    image: photo_58,
-    team: TEAM.HR,
   },
 ];
 
@@ -384,11 +367,19 @@ const zToAList = [...employees]
 const shuffledInterns = shuffleArray(interns);
 
 const addExtras = (arr) => {
-  arr.unshift({
-    content: "Ned",
-    image: photo_35,
-    team: TEAM.MANAGEMENT,
-  });
+  arr.unshift(
+    {
+      content: "Ned",
+      image: photo_35,
+      team: TEAM.MANAGEMENT,
+    },
+    {
+      content: "Heintze",
+      image: photo_58,
+      team: TEAM.HR,
+      isWinner: true,
+    }
+  );
 
   // arr.push({
   //   // content: "Luna",
