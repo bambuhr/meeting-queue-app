@@ -49,361 +49,361 @@ import { man, woman } from "./avatar";
 import { MainImage } from "pages/MeetingPage/styles";
 
 const TEAM = {
-  MARKETING: "marketing team",
-  HAPPINESS: "happiness team",
-  SALES: "sales team",
-  INVESTMENTS: "investments team",
-  UX: "ui/ux team",
-  DEVELOPMENT: "development team",
-  FINANCE: "finance team",
-  TESTING: "testing team",
-  BA: "b.a. team",
-  PM: "p.m. team",
-  SUPPORT: "support team",
-  DESIGN: "design team",
-  MANAGEMENT: "management team",
-  HR: "hr team",
-  OPERATIONS: "operations team",
+	MARKETING: "marketing team",
+	HAPPINESS: "happiness team",
+	SALES: "sales team",
+	INVESTMENTS: "investments team",
+	UX: "ui/ux team",
+	DEVELOPMENT: "development team",
+	FINANCE: "finance team",
+	TESTING: "testing team",
+	BA: "b.a. team",
+	PM: "p.m. team",
+	SUPPORT: "support team",
+	DESIGN: "design team",
+	MANAGEMENT: "management team",
+	HR: "hr team",
+	OPERATIONS: "operations team",
 };
 
 const employees = [
-  {
-    content: "Pierre",
-    image: photo_38,
-    team: TEAM.INVESTMENTS,
-  },
-  {
-    content: "Madeline",
-    image: photo_31,
-    team: TEAM.UX,
-  },
-  {
-    content: "Baldip",
-    image: Baldip,
-    team: TEAM.SALES,
-  },
-  {
-    content: "Shekhar",
-    image: photo_47,
-    team: TEAM.TESTING,
-  },
-  {
-    content: "Azman",
-    image: photo_12,
-    team: TEAM.DESIGN,
-  },
-  {
-    content: "Kruthika",
-    image: photo_27,
-    team: TEAM.BA,
-  },
-  {
-    content: "Nithin",
-    image: photo_36,
-    team: TEAM.DEVELOPMENT,
-  },
-  {
-    content: "Manisha",
-    image: Manisha,
-    team: TEAM.TESTING,
-  },
-  {
-    content: "Dan",
-    image: photo_17,
-    team: TEAM.DEVELOPMENT,
-  },
-  {
-    content: "Ken",
-    image: Ken,
-    team: TEAM.DEVELOPMENT,
-  },
-  {
-    content: "Tony",
-    image: photo_50,
-    team: TEAM.DEVELOPMENT,
-  },
-  {
-    content: "Akarsh",
-    image: man(),
-    team: TEAM.DEVELOPMENT,
-  },
-  {
-    content: "Maris",
-    image: photo_9,
-    team: TEAM.BA,
-  },
-  {
-    content: "Haja",
-    image: photo_20,
-    team: TEAM.MANAGEMENT,
-  },
-  {
-    content: "Mellisa",
-    image: photo_33,
-    team: TEAM.MANAGEMENT,
-  },
-  {
-    content: "Carina",
-    image: photo_15,
-    team: TEAM.SALES,
-  },
-  {
-    content: "Prabha",
-    image: Prabha,
-    team: TEAM.TESTING,
-  },
-  {
-    content: "Santosh",
-    image: photo_45,
-    team: TEAM.TESTING,
-  },
-  {
-    content: "David",
-    image: photo_67,
-    team: TEAM.UX,
-    isWinner: true,
-  },
-  {
-    content: "Ian",
-    image: Ian,
-    team: TEAM.DEVELOPMENT,
-  },
-  {
-    content: "Johannes",
-    image: Johannes,
-    team: TEAM.DEVELOPMENT,
-  },
-  {
-    content: "Kenan",
-    image: Kenan,
-    team: TEAM.DEVELOPMENT,
-  },
-  // {
-  //   content: "Preeti",
-  //   image: Preeti,
-  //   team: TEAM.TESTING,
-  // },
-  // {
-  //   content: "Phil",
-  //   image: photo_70,
-  //   team: TEAM.PM,
-  // },
-  {
-    content: "Steven",
-    image: Steven,
-    team: TEAM.UX,
-  },
-  {
-    content: "Narmeet",
-    image: Narmeet,
-    team: TEAM.DEVELOPMENT,
-  },
-  {
-    content: "Grace",
-    image: Grace,
-    team: TEAM.INVESTMENTS,
-  },
-  {
-    content: "Ravi",
-    image: man(),
-    team: TEAM.SUPPORT,
-  },
-  {
-    content: "Nikhil",
-    image: man(),
-    team: TEAM.SUPPORT,
-  },
-  {
-    content: "Ari",
-    image: man(),
-    team: TEAM.SUPPORT,
-  },
-  {
-    content: "Sherry",
-    image: Sherry,
-    team: TEAM.OPERATIONS,
-  },
-  {
-    content: "Sushant",
-    image: man(),
-    team: TEAM.TESTING,
-  },
-  {
-    content: "Ujjwal",
-    image: man(),
-    team: TEAM.DEVELOPMENT,
-  },
-  {
-    content: "JM",
-    image: JM,
-    team: TEAM.SUPPORT,
-  },
-  {
-    content: "Rajani",
-    image: woman(),
-    team: TEAM.SUPPORT,
-  },
-  {
-    content: "Udaykant",
-    image: Udaykant,
-    team: TEAM.BA,
-  },
-  // {
-  //   content: "Mizu",
-  //   image: Mizu,
-  //   team: TEAM.MARKETING,
-  // },
-  {
-    content: "Ostin",
-    image: Ostin,
-    team: TEAM.BA,
-  },
-  {
-    content: "Nick",
-    image: Nick,
-    team: TEAM.SALES,
-  },
-  // {
-  //   content: "Mike",
-  //   image: Mike,
-  //   team: TEAM.SALES,
-  // },
-  {
-    content: "Nicholas",
-    image: Nicholas,
-    team: TEAM.BA,
-  },
-  {
-    content: "Prasoon",
-    image: man(),
-    team: TEAM.DEVELOPMENT,
-  },
-  {
-    content: "Aditya",
-    image: man(),
-    team: TEAM.DEVELOPMENT,
-  },
-  {
-    content: "Bernadette",
-    image: woman(),
-    team: TEAM.TESTING,
-  },
-  {
-    content: "Chinmay",
-    image: man(),
-    team: TEAM.TESTING,
-  },
-  {
-    content: "Thirupathi",
-    image: man(),
-    team: TEAM.DEVELOPMENT,
-  },
-  // {
-  //   content: "Ashwini",
-  //   image: woman(),
-  //   team: TEAM.TESTING,
-  // },
-  {
-    content: "Pravinkumar",
-    image: man(),
-    team: TEAM.DEVELOPMENT,
-  },
-  {
-    content: "Heintze",
-    image: photo_58,
-    team: TEAM.HR,
-  },
-  {
-    content: "Gunvant",
-    image: man(),
-    team: TEAM.DEVELOPMENT,
-  },
-  {
-    content: "Vipul",
-    image: man(),
-    team: TEAM.PM,
-  },
-  {
-    content: "Sachin",
-    image: Sachin,
-    team: TEAM.FINANCE,
-  },
-  {
-    content: "Pavan",
-    image: man(),
-    team: TEAM.DEVELOPMENT,
-  },
-  {
-    content: "Ben",
-    image: Ben,
-    team: TEAM.DEVELOPMENT,
-  },
+	{
+		content: "Pierre",
+		image: photo_38,
+		team: TEAM.INVESTMENTS,
+		isWinner: true,
+	},
+	{
+		content: "Madeline",
+		image: photo_31,
+		team: TEAM.UX,
+	},
+	{
+		content: "Baldip",
+		image: Baldip,
+		team: TEAM.SALES,
+	},
+	{
+		content: "Shekhar",
+		image: photo_47,
+		team: TEAM.TESTING,
+	},
+	{
+		content: "Azman",
+		image: photo_12,
+		team: TEAM.DESIGN,
+	},
+	{
+		content: "Kruthika",
+		image: photo_27,
+		team: TEAM.BA,
+	},
+	{
+		content: "Nithin",
+		image: photo_36,
+		team: TEAM.DEVELOPMENT,
+	},
+	{
+		content: "Manisha",
+		image: Manisha,
+		team: TEAM.TESTING,
+	},
+	{
+		content: "Dan",
+		image: photo_17,
+		team: TEAM.DEVELOPMENT,
+	},
+	{
+		content: "Ken",
+		image: Ken,
+		team: TEAM.DEVELOPMENT,
+	},
+	{
+		content: "Tony",
+		image: photo_50,
+		team: TEAM.DEVELOPMENT,
+	},
+	{
+		content: "Akarsh",
+		image: man(),
+		team: TEAM.DEVELOPMENT,
+	},
+	{
+		content: "Maris",
+		image: photo_9,
+		team: TEAM.BA,
+	},
+	{
+		content: "Haja",
+		image: photo_20,
+		team: TEAM.MANAGEMENT,
+	},
+	{
+		content: "Mellisa",
+		image: photo_33,
+		team: TEAM.MANAGEMENT,
+	},
+	{
+		content: "Carina",
+		image: photo_15,
+		team: TEAM.SALES,
+	},
+	{
+		content: "Prabha",
+		image: Prabha,
+		team: TEAM.TESTING,
+	},
+	{
+		content: "Santosh",
+		image: photo_45,
+		team: TEAM.TESTING,
+	},
+	{
+		content: "David",
+		image: photo_67,
+		team: TEAM.UX,
+	},
+	{
+		content: "Ian",
+		image: Ian,
+		team: TEAM.DEVELOPMENT,
+	},
+	{
+		content: "Johannes",
+		image: Johannes,
+		team: TEAM.DEVELOPMENT,
+	},
+	{
+		content: "Kenan",
+		image: Kenan,
+		team: TEAM.DEVELOPMENT,
+	},
+	// {
+	//   content: "Preeti",
+	//   image: Preeti,
+	//   team: TEAM.TESTING,
+	// },
+	// {
+	//   content: "Phil",
+	//   image: photo_70,
+	//   team: TEAM.PM,
+	// },
+	{
+		content: "Steven",
+		image: Steven,
+		team: TEAM.UX,
+	},
+	{
+		content: "Narmeet",
+		image: Narmeet,
+		team: TEAM.DEVELOPMENT,
+	},
+	{
+		content: "Grace",
+		image: Grace,
+		team: TEAM.INVESTMENTS,
+	},
+	{
+		content: "Ravi",
+		image: man(),
+		team: TEAM.SUPPORT,
+	},
+	{
+		content: "Nikhil",
+		image: man(),
+		team: TEAM.SUPPORT,
+	},
+	{
+		content: "Ari",
+		image: man(),
+		team: TEAM.SUPPORT,
+	},
+	{
+		content: "Sherry",
+		image: Sherry,
+		team: TEAM.OPERATIONS,
+	},
+	{
+		content: "Sushant",
+		image: man(),
+		team: TEAM.TESTING,
+	},
+	{
+		content: "Ujjwal",
+		image: man(),
+		team: TEAM.DEVELOPMENT,
+	},
+	{
+		content: "JM",
+		image: JM,
+		team: TEAM.SUPPORT,
+	},
+	{
+		content: "Rajani",
+		image: woman(),
+		team: TEAM.SUPPORT,
+	},
+	{
+		content: "Udaykant",
+		image: Udaykant,
+		team: TEAM.BA,
+	},
+	// {
+	//   content: "Mizu",
+	//   image: Mizu,
+	//   team: TEAM.MARKETING,
+	// },
+	{
+		content: "Ostin",
+		image: Ostin,
+		team: TEAM.BA,
+	},
+	{
+		content: "Nick",
+		image: Nick,
+		team: TEAM.SALES,
+	},
+	// {
+	//   content: "Mike",
+	//   image: Mike,
+	//   team: TEAM.SALES,
+	// },
+	{
+		content: "Nicholas",
+		image: Nicholas,
+		team: TEAM.BA,
+	},
+	{
+		content: "Prasoon",
+		image: man(),
+		team: TEAM.DEVELOPMENT,
+	},
+	{
+		content: "Aditya",
+		image: man(),
+		team: TEAM.DEVELOPMENT,
+	},
+	{
+		content: "Bernadette",
+		image: woman(),
+		team: TEAM.TESTING,
+	},
+	{
+		content: "Chinmay",
+		image: man(),
+		team: TEAM.TESTING,
+	},
+	{
+		content: "Thirupathi",
+		image: man(),
+		team: TEAM.DEVELOPMENT,
+	},
+	// {
+	//   content: "Ashwini",
+	//   image: woman(),
+	//   team: TEAM.TESTING,
+	// },
+	{
+		content: "Pravinkumar",
+		image: man(),
+		team: TEAM.DEVELOPMENT,
+	},
+	{
+		content: "Heintze",
+		image: photo_58,
+		team: TEAM.HR,
+	},
+	{
+		content: "Gunvant",
+		image: man(),
+		team: TEAM.DEVELOPMENT,
+	},
+	{
+		content: "Vipul",
+		image: man(),
+		team: TEAM.PM,
+	},
+	{
+		content: "Sachin",
+		image: Sachin,
+		team: TEAM.FINANCE,
+	},
+	{
+		content: "Pavan",
+		image: man(),
+		team: TEAM.DEVELOPMENT,
+	},
+	{
+		content: "Ben",
+		image: Ben,
+		team: TEAM.DEVELOPMENT,
+	},
 ];
 
 const interns = [];
 
 function shuffleArray(array) {
-  var currentIndex = array.length,
-    temporaryValue,
-    randomIndex;
+	var currentIndex = array.length,
+		temporaryValue,
+		randomIndex;
 
-  // While there remain elements to shuffle...
-  while (0 !== currentIndex) {
-    // Pick a remaining element...
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex -= 1;
+	// While there remain elements to shuffle...
+	while (0 !== currentIndex) {
+		// Pick a remaining element...
+		randomIndex = Math.floor(Math.random() * currentIndex);
+		currentIndex -= 1;
 
-    // And swap it with the current element.
-    temporaryValue = array[currentIndex];
-    array[currentIndex] = array[randomIndex];
-    array[randomIndex] = temporaryValue;
-  }
+		// And swap it with the current element.
+		temporaryValue = array[currentIndex];
+		array[currentIndex] = array[randomIndex];
+		array[randomIndex] = temporaryValue;
+	}
 
-  return array;
+	return array;
 }
 
 const nameList = shuffleArray([...employees].slice());
 const aToZList = [...employees]
-  .slice()
-  .sort((a, b) => (a.content > b.content ? 1 : -1));
+	.slice()
+	.sort((a, b) => (a.content > b.content ? 1 : -1));
 const zToAList = [...employees]
-  .slice()
-  .sort((a, b) => (a.content > b.content ? -1 : 1));
+	.slice()
+	.sort((a, b) => (a.content > b.content ? -1 : 1));
 
 const shuffledInterns = shuffleArray(interns);
 
 const addExtras = (arr) => {
-  arr.unshift({
-    content: "Ned",
-    image: photo_35,
-    team: TEAM.MANAGEMENT,
-  });
+	arr.unshift({
+		content: "Ned",
+		image: photo_35,
+		team: TEAM.MANAGEMENT,
+	});
 
-  // arr.push({
-  //   // content: "Luna",
-  //   // image: Luna,
-  //   // team: TEAM.HAPPINESS,
-  // });
+	// arr.push({
+	//   // content: "Luna",
+	//   // image: Luna,
+	//   // team: TEAM.HAPPINESS,
+	// });
 
-  // arr.push(...shuffledInterns);
-  // arr.push({
-  //   content: "Mia",
-  //   image: Mia,
-  //   team: TEAM.MANAGEMENT,
-  // });
-  // arr.push({
-  //   content: "Bean",
-  //   image: Bean,
-  //   team: TEAM.HAPPINESS,
-  // });
+	// arr.push(...shuffledInterns);
+	// arr.push({
+	//   content: "Mia",
+	//   image: Mia,
+	//   team: TEAM.MANAGEMENT,
+	// });
+	// arr.push({
+	//   content: "Bean",
+	//   image: Bean,
+	//   team: TEAM.HAPPINESS,
+	// });
 
-  // arr.push({
-  //   // content: "Aki",
-  //   // image: photo_6,
-  //   // team: TEAM.MANAGEMENT,
-  // });
-  // ,...........
-  return arr;
+	// arr.push({
+	//   // content: "Aki",
+	//   // image: photo_6,
+	//   // team: TEAM.MANAGEMENT,
+	// });
+	// ,...........
+	return arr;
 };
 
 const random = addExtras(nameList);
