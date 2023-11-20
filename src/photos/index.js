@@ -81,7 +81,6 @@ const employees = [
     content: "Baldip",
     image: Baldip,
     team: TEAM.SALES,
-    isWinner: true,
   },
   {
     content: "Shekhar",
@@ -167,6 +166,7 @@ const employees = [
     content: "Ian",
     image: Ian,
     team: TEAM.DEVELOPMENT,
+    isWinner: true,
   },
   {
     content: "Johannes",
