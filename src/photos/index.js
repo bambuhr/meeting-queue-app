@@ -168,11 +168,11 @@ const employees = [
     team: TEAM.DEVELOPMENT,
     isWinner: true,
   },
-  {
-    content: "Johannes",
-    image: Johannes,
-    team: TEAM.DEVELOPMENT,
-  },
+  // {
+  //   content: "Johannes",
+  //   image: Johannes,
+  //   team: TEAM.DEVELOPMENT,
+  // },
   {
     content: "Kenan",
     image: Kenan,
